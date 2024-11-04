@@ -31,13 +31,12 @@ Variables d'État
 
 Fonctions API
 
-1. fetchEvents : Récupère les événements pour l'utilisateur sélectionné depuis l'API et met à jour l'état events.
-2. fetchUsers : Charge la liste des utilisateurs au démarrage et les affiche dans un menu déroulant.
-3. handleAddEvent : Envoie une requête POST à l’API pour ajouter un nouvel événement et met à jour l'état events.
-4. handleEditEvent : Envoie une requête PUT pour modifier un événement existant.
-5. handleDeleteEvent : Demande une confirmation avant de supprimer un événement.
-6. handleUserChange : Met à jour selectedUserId et recharge les événements pour l’utilisateur sélectionné.
-7. handleLogout : Supprime le token JWT et redirige vers la page de connexion.
+1. fetchUsers : Charge la liste des utilisateurs chacune avec ses événements au démarrage et les affiche dans un menu déroulant.
+2. handleAddEvent : Envoie une requête POST à l’API pour ajouter un nouvel événement et met à jour l'état events.
+3. handleEditEvent : Envoie une requête PUT pour modifier un événement existant.
+4. handleDeleteEvent : Demande une confirmation avant de supprimer un événement.
+5. handleUserChange : Met à jour selectedUserId et recharge les événements pour l’utilisateur sélectionné.
+6. handleLogout : Supprime le token JWT et redirige vers la page de connexion.
 
 
 Fonctionnalités du Composant Calendar.tsx
